@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0c21
+}
+
+.btnOpenModal{
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-container{
+    width: 100vw;
+    position: fixed;
+    top: 30px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.btns button{
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.btnOk{
+    background-color: blue;
+
+}
+
+.btnClose{
+    background-color: red;
+}
